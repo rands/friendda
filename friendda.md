@@ -35,4 +35,5 @@ Termination of this FriendDA can be executed by either party, but don't be a dou
 
 You are acknowledging and agreeing to this disclosure by reading it. If you find any part of this agreement uncomfortable or confusing, don't sweat it. We'll talk about something else.
 
-Help [Translate](http://translatefriendda.wikispaces.com/) — [version .8](https://github.com/rands/friendda) -- [(cc) 2009-2014](http://creativecommons.org/licenses/by-nc-sa/4.0/) [Rands](http://www.randsinrepose.com/archives/2008/10/19/friendda.html)
+Help [Translate](http://translatefriendda.wikispaces.com/) — [version .8](https://github.com/rands/friendda)
+[(cc) 2009-2014](http://creativecommons.org/licenses/by-nc-sa/4.0/) [Rands](http://www.randsinrepose.com/archives/2008/10/19/friendda.html)
