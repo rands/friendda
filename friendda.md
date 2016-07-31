@@ -37,4 +37,4 @@ You are acknowledging and agreeing to this disclosure by reading it. If you find
 
 * Help [Translate](http://translatefriendda.wikispaces.com/) or [Contribute](https://github.com/rands/friendda)
 * Read the [Intent](http://www.randsinrepose.com/archives/2008/10/19/friendda.html)
-* [(cc) 2009-2015](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* [(cc) 2009-2016](http://creativecommons.org/licenses/by-nc-sa/4.0/)
