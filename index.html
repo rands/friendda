@@ -1,84 +1,204 @@
- <html>
-   <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>FriendDA — Slightly more than a hearty handshake</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="An agreement that you, as my friend, will not screw me by sharing my idea." />
+
     <link rel="shortcut icon" href="https://festive-golick-85ea9c.netlify.com/favicon.ico" type="image/x-icon" />
 
-    <!-- CSS adapted from Alex Payne - who rocks -->
+    <meta property="og:title" content="The FriendDA" />
+    <meta property="og:description"
+        content="An agreement that you, as my friend, will not screw me by sharing my idea." />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="FriendDA" />
+    <meta name="twitter:description"
+        content="An agreement that you, as my friend, will not screw me by sharing my idea." />
 
-    <title>FriendDA -- Slightly more than a hearty handshake</title>
-    
+    <!-- CSS adapted from Alex Payne - who rocks -->
+    <!-- Also borrowed some styles from Tailwind CSS, which also rocks -->
     <style type="text/css">
-    
-    body{background-color:#fff;color:#333;font-family:"Helvetica Neue",Arial,Verdana,sans-serif;font-size:62.5%;margin:5% 5% 0 5%;}
-    a,a:visited,a:active{color:#CD3700;text-decoration:underline;}
-    a:hover{text-decoration:none;}
-    #header{text-align:center;}
-    #container{clear:both;font-size:3em;margin:auto;}
-    #footer{font-size:1.5em}
+        body {
+            background-color: #ffffff;
+            color: #333333;
+            font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+            margin: 5vh 5vh;
+            font-size: 1rem;
+            /* 16px */
+            line-height: 1.25rem;
+            /* 24px */
+        }
+
+        a,
+        a:visited,
+        a:active {
+            color: #CD3700;
+            text-decoration: underline;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+
+        header {
+            text-align: center;
+            font-size: 1.875rem;
+            /* 30px */
+            line-height: 2.25rem;
+            /* 36px */
+        }
+
+        footer {
+            padding: 16px auto;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            /* 24px */
+            line-height: 2rem;
+            /* 32px */
+        }
+
+        .footer-list {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            text-align: right;
+        }
+
+
+        .container {
+            clear: both;
+            margin: auto;
+            max-width: 768px;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #222222;
+                color: #ffffff;
+            }
+
+            a,
+            a:visited,
+            a:active {
+                color: blue;
+                text-decoration: underline;
+            }
+        }
+
+        /* Some CSS hacks to make everything fit on one page */
+        @media print {
+            header {
+                font-size: 1.5rem;
+                /* 24px */
+                line-height: 1.75rem;
+                /* 32px */
+            }
+
+            footer {
+                display: none;
+            }
+
+            h1 {
+                font-size: 1.125rem;
+                /* 18px */
+                line-height: 1.5rem;
+                /* 24px */
+            }
+
+        }
     </style>
-  </head>
+</head>
 
 <body>
+    <header class="container">
+        <div>The FriendDA</div>
+    </header>
+    <main class="container">
+        <p>
+            <strong>WHEREAS</strong> I possess a bright idea that I am choosing to disclose to you, The Advisor, with
+            the mutual understanding that you are my friend and that you will not screw me;
+        </p>
+        <p>
+            <strong>WHEREAS</strong> I believe The Idea will only improve as a result of having solicited your honest
+            and candid feedback;
+        </p>
+        <p>
+            <strong>WHEREAS</strong> manners of screwing include, but are not limited to:
+        </p>
+        <ol>
+            <li>Adapting some or all of The Idea for your own purposes unless I say you can,</li>
+            <li>Choosing to share some or all of The Idea with those who are not bound to this agreement, and</li>
+            <li>Failing to do your best to protect The Idea;</li>
+        </ol>
+        <p>
+            <strong>WHEREAS</strong> by requesting your consent to this agreement, I am helping myself sleep at night by
+            placing a small amount of formality on the sharing of The Idea;
+        </p>
+        <p>
+            We, therefore, enter into an agreement (&quot;the FriendDA&quot;) on this _____ day of _______________
+            20____ by and between ___________________________ (hereinafter &quot;you&quot;, or &quot;The Advisor&quot;)
+            and ___________________________ (hereinafter &quot;The Keeper of the Idea&quot;, &quot;me&quot;, or
+            &quot;I&quot;) regarding information (hereinafter &quot;The Idea&quot;) that I am choosing to share with you
+            in which you agree to not screw me by sharing The Idea without my consent.
+        </p>
 
-<div id="container">
-    
-<p id="header"><u>FriendDA</u></p>
-<p>This agreement is entered into this ___ day of ___ 20__ by and between _____________ (hereinafter "The Advisor") and _____________ (hereinafter "The Keeper of the Idea" or "I") regarding information The Keeper of The Idea is choosing to share with The Advisor (hereinafter "The Idea").</p>
+        <h1>
+            <strong>Term of Agreement</strong>
+        </h1>
+        <p>This agreement remains in effect until I or someone I authorize makes The Idea public.</p>
+        <h1>
+            <strong>Consequences of Breach</strong>
+        </h1>
+        <p>
+            This agreement may possibly have some amount of legal binding. However, it is likely that upon breach or
+            violation of the agreement, I will do no more than any of the following:
+        </p>
+        <ol>
+            <li>Curse you under my breath. </li>
+            <li>Publicly disclose the manner of your screw-i-tude.</li>
+            <li>Write about your transgressions in ALL CAPS. </li>
+            <li>No longer consider you a person with whom I can share my ideas.</li>
+        </ol>
 
-<p><strong>WHEREAS</strong> I possess a bright idea that I am choosing to disclose to you, The Advisor, with the mutual understanding that you are my friend and that you will not screw me.</p>
+        <h1>
+            <strong>Conditions of Sharing</strong>
+        </h1>
+        <p>
+            Sharing of some or all of The Idea with third parties may occur provided that you have cleared this with me
+            and the third parties agree to the principles of the FriendDA.
+        </p>
 
-<p>Manners of screwing include, but are not limited to:</p>
+        <h1>
+            <strong>Termination</strong>
+        </h1>
+        <p>
+            Termination of this FriendDA can be executed by either party, but don't be a douche. You are acknowledging
+            and agreeing to this disclosure by reading it. If you find any part of this agreement uncomfortable or
+            confusing, don't sweat it. We'll talk about something else.
+        </p>
+    </main>
 
-<ol>
-    <li>Adapting some or all of The Idea for your own purposes unless I say you can.</li>
-    <li>Choosing to share some or all of The Idea with those who are not bound to this agreement.</li>
-    <li>Failing to do your best to protect The Idea.</li>
-</ol>
-<p>This is a "warm blanket" agreement with which, by requesting your agreement to it, I am helping myself sleep at night by placing a small amount of formality on the sharing of The Idea. I believe The Idea will only improve as a result of having solicited your honest and clear feedback.</p>
+    <footer class="container">
+        <ul class="footer-list">
+            <li>Contribute to the <a href="https://github.com/rands/friendda">Concept</a></li>
+            <li>Read the <a href="https://randsinrepose.com/archives/friendda/">Intent</a></li>
+            <li><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">(cc) 2009-2023</a></li>
+        </ul>
+    </footer>
 
-<strong>Term</strong>
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        var pageTracker = _gat._getTracker("UA-834812-3");
+        pageTracker._trackPageview();
+    </script>
+</body>
 
-<p>The term of this agreement shall continue until I or someone I authorize makes The Idea public.</p>
-
-<strong>Breach</strong>
-
-<p>This agreement may possibly have some amount of legal binding. However, it is likely that upon breach or violation of the agreement, I will do no more than any of the following:</p>
-
-<ol>
-    <li>Curse you under my breath. </li>
-    <li>Publicly disclose the manner of your screw-i-tude.</li>
-    <li>Write about your transgressions in ALL CAPS. </li>
-    <li>No longer consider you a person with whom I can share my ideas.</li>
-</ol>
-
-<strong>Sharing</strong>
-
-<p>Sharing of some or all of The Idea with third parties may occur provided that you have cleared this with me and the third parties agree to the principles of the FriendDA.</p>
-
-<strong>Termination</strong>
-
-<p>Termination of this FriendDA can be executed by either party, but don't be a douche.</p>
-
-<p>You are acknowledging and agreeing to this disclosure by reading it. If you find any part of this agreement uncomfortable or confusing, don't sweat it. We'll talk about something else.</p>
-
-</div>
-
-<div id="footer" dir="rtl">
-<ul>
-    <li>Contribute to the <a href="https://github.com/rands/friendda">Concept</a></li>
-    <li>Read the <a href="https://randsinrepose.com/archives/friendda/">Intent</a></li>
-    <li><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">cc) 2009-2023)</a></li>
-</ul>
-</div>
-    
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-834812-3");
-pageTracker._trackPageview();
-</script>
-    
-    </body>
 </html>
